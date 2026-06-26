@@ -32,6 +32,15 @@ export function Closing() {
             Cuiabá — Brazil
           </p>
         </div>
+                {/* email */}
+        <div className="space-y-2">
+          <a 
+            className="text-base tracking-[0.2em]"
+            style={{ fontFamily: "'Playfair Display', serif", color: '#1F2A28' }}
+          >
+             mixeuskaczala@gmail.com | brunakaczala@gmail.com 
+          </a>
+        </div>
 
         {/* Year */}
         <p 

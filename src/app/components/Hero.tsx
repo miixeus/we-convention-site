@@ -36,7 +36,7 @@ export function Hero() {
             className="text-xl md:text-2xl italic leading-relaxed"
             style={{ fontFamily: "'Playfair Display', serif", color: '#2F2F2F' }}
           >
-            "A quiet life, warm friendships and a love for simple things."
+            "A peaceful life, warm friendships, a love for simple things, and what unites us—our love for Jehovah and Jesus."
           </p>
           
           <div className="w-24 h-px bg-[#C6A15B]"></div>
@@ -46,7 +46,7 @@ export function Hero() {
         <div className="relative">
           <div className="aspect-[3/4] overflow-hidden border border-[#1F2A28]/10 shadow-2xl">
             <ImageWithFallback
-              src="./photos/Ideia-photo-case.png"
+              src="./photos/Bru-e-eu-capa.jpeg"
               alt="Michel and Bru"
               className="w-full h-full object-cover"
             />
