@@ -114,7 +114,7 @@ export function MessageWall() {
           .upload(fileName, photoFile);
 
         if (uploadError) {
-          throw new Error("Não foi possível enviar a foto. Tente novamente.");
+          throw new Error("Unable to send the photo. Please try again.");
         }
 
         const { data: publicUrlData } = supabase.storage
